@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/orders
+Content-Type: application/json
+
+###
+DELETE http://localhost:8080/api/orders/5
+Content-Type: application/json
+
+###
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "placedDate": "2022-04-01T00:00:00Z"
+}
