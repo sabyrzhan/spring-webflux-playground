@@ -2,7 +2,7 @@ GET http://localhost:8080/api/orders
 Content-Type: application/json
 
 ###
-DELETE http://localhost:8080/api/orders/5
+DELETE http://localhost:8080/api/orders/1
 Content-Type: application/json
 
 ###
